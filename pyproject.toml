@@ -1,0 +1,23 @@
+[project]
+name = "lab0"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Iqra AI Training", email = "i247813@isb.nu.edu.pk" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "black>=26.10.1",
+    "click>=8.5.1",
+    "pylint>=4.1.4",
+    "pytest>=9.2.0",
+    "pytest-cov>=7.1.0",
+]
+
+[project.scripts]
+lab0 = "lab0:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
